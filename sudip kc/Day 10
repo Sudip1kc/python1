@@ -1,0 +1,37 @@
+#task task(Accounting):
+# create a dictionary that stores user data
+#{"ram":"password","shyam":"password"}
+# create another dictionary that stores user ko name rw amount
+#{"ram":20000,"shyam":50000}
+
+# ask user for their credentials
+# if the user is valid then show them 3 options 1, check balance, 2. add balance, 3. withdraw balance
+#  if option is check, print the amount of that user
+# if optin is add, ask the user amount to add in the account and add it with current balance
+#  if option is withdraw, ask user for amount, subtract the amt from the balance, if the withdraw ammount is greater than balanace, display insufficient balance
+       
+user_id = {"ram": "password", "shyam": "password"}
+user_balances = {"ram": 20000, "shyam": 50000}
+username = input("Enter your username: ")
+password = input("Enter your password: ")
+if username in user_id and user_id[username] == password:
+    print(f"Welcome, {username}!")
+    print("Options:\n1. Check Balance\n2. Add Balance\n3. Withdraw Balance")
+    option = int(input("Enter your choice (1, 2, or 3): "))
+    if option == 1:
+        print(f"Your current balance is: {user_balances[username]}")
+    elif option == 2:
+        amount_to_add = int(input("Enter the amount to add: "))
+        user_balances[username] += amount_to_add
+        print(f"Amount added! Your new balance is: {user_balances[username]}")
+    elif option == 3:
+        amount_to_withdraw = int(input("Enter the amount to withdraw: "))
+        if amount_to_withdraw > user_balances[username]:
+            print("Insufficient balance!")
+        else:
+            user_balances[username] -= amount_to_withdraw
+            print(f"Amount withdrawn! Your new balance is: {user_balances[username]}")
+    else:
+        print("Invalid option!")
+else:
+    print("Invalid username or password!")

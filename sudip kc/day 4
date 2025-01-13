@@ -1,0 +1,24 @@
+# changing datatype from one to another
+a = 10
+print(type(a))
+b = float(a)
+print(b)
+print(type(b))
+# int() to convert into int
+a = 11.3
+print(type(a))
+b= int(a)
+c= float(a)
+print(c)
+print(type(c))
+# float to int to float
+
+
+#list()= convert to list
+a= ("apple","ball",2,55)
+my_list= list(a)
+print(my_list)
+# set()-convert to set
+a= ("apple","banana","banana",2,44)
+my_set= set(a)
+print(set)

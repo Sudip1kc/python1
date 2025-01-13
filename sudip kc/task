@@ -1,0 +1,18 @@
+#u_words=input("enter the word")
+#count =input("amount of times to run the loop")
+#while count <=0:
+ #   print(u_words)
+  #  count -=1
+   # if count <=0:
+#a=[1,2,3,4,"d"]
+#for i in a:
+#    print("hello")
+#a=[1,2,3,4,"d"]
+#for i in a:
+#    if i == 3:
+#        break
+#    print(i)
+
+    
+        
+    

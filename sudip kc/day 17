@@ -1,0 +1,53 @@
+#oop object oriented programming
+#class and object
+#class is a structre or blueprint
+#object instance of class
+#class students:
+#    college_name="abcdefgh"
+#    def __init__(self,name,marks):
+#        self.name=name
+#        self.mark=marks
+#        print("adding new record in list")
+#        
+#s1 = students ("sudip", 99)
+#print(s1.name, s1.mark)
+        
+#s2=students("arjun", 88)
+#print(s2.name, s2.mark)
+
+#print(students.college_name)
+#class students:
+ #   college_name="abcdefgh"
+  #  def __init__(self,name,marks):
+  #      self.name=name
+  #      self.mark=marks
+  #  def welcom(self):
+  #      print('welcom students',self.name,)   
+  #  def get_marks(self):
+   #     return self.mark     
+        
+#s1 = students ("sudip", 99)
+
+        
+#s1.welcom()
+#print(s1.get_marks())
+# class students:
+#     def __init__(self,name,marks):
+#         self.name=name
+#         self.marks=marks
+#     @staticmethod    
+#     def hello():
+#         print("nist school")    
+    
+#     def get_avg(self):
+#         total = sum(self.marks)  
+#         average = total / len(self.marks)  
+#         print(f"Hi {self.name}, your average score is: {average:.1f}")
+
+            
+            
+# s1 = students("sudip",[88,89,77])
+# s1.get_avg()
+# s1.name="ram" 
+# s1.get_avg()
+# s1.hello()     

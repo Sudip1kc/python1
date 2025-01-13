@@ -1,0 +1,15 @@
+<!--git intialize-->
+git int
+<!--add to git repo-->
+git add.
+git add<file name>(single file add)
+<!--stagge the added file-->
+git commit -m "<messages>"
+ <!--view avaiable branch-->
+ git branch
+ <!--default branch ko name change-->
+ git branch -m <new name> 
+ 
+<!--new branch-->
+git branch <branch name>
+        

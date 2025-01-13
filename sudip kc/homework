@@ -1,0 +1,18 @@
+class account:
+    def __init__(self,Balance,Account_no):
+        self.Balance=Balance
+        self.Account_no=Account
+
+    #debit
+    def (self,amount):
+        self.Balance-=amount
+        print("rs"amount "is debited")
+    # credit
+    def (self,amount):
+        self.Balance+=amount
+        print("rs"amount "is credited")
+    def get_Balance(self)
+        return self.Balance         
+acc1=Account(1000,1234)
+print(acc1.Balance)
+print(acc1.Account_no)        

@@ -1,0 +1,21 @@
+# while loop - multi lined statement,
+#a=0
+#b=5
+#while a<b:
+#    print("a is smaller than b")
+ #   a+=1
+    
+#while True:
+ #   print("hello")    
+  #  break
+#print("end of while loop")
+ 
+ # continue stat
+a=0
+b=5
+while a<b:
+    print("a is smaller than b")
+    a+= 1
+    if a== 4:
+        continue
+    print(a)

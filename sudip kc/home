@@ -1,0 +1,57 @@
+# a = float(input("enter the number"))
+from collections.abc import Sequence
+x = 13
+if x > 4:
+    if x < 14:
+        print("x is between 4 to 14")
+x = 10
+if x > 5:
+    if x < 20:
+        print("x is between 5 and 20")
+x = 10
+if x > 5:
+    if x < 20:print("x is between 5 and 20")
+    x = 4
+    
+print("Greater than 5") if x > 5 else print("5 or less")
+# a==5
+#b= 5
+#if a>5:
+#    print("a is greater than b")
+#elif a==b:
+#    print("a is equal to b")
+#else: 
+ #   print("b is greater than a")
+     
+num1 =int(input("enter 1st num"))
+num2 =int(input("enter 2nd num")) 
+op=input("enter operators(+,-,*,/)")
+if op=="+":
+    print(num1+num2)
+elif op== "-":
+    print(num1-num2)
+elif op=="*":
+    print(num1*num2)
+elif op=="/":
+    print(num1/num2)
+else:
+    print("invalid op")
+    
+mark =int(input("enter a mark"))
+if 90< mark < 100:
+    print("excellent")
+elif 80< mark < 90:
+    print("very good")
+elif 70 < mark< 80:
+    print("good")
+elif 60< mark < 70:
+    print("better")
+elif 50< mark<60:
+    print("could be better")    
+elif 40< mark < 50:
+    print("pass")
+else:
+    print("fail")    
+    
+     
+ 

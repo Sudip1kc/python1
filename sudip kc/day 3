@@ -1,0 +1,40 @@
+a="hello"
+h=0
+e=1
+l=2
+l=3
+o=4
+print(a[0])
+print(a[1:-2 ])
+nums =[ 25,454,5454,4545,4545,455,45,454,545,]
+print(nums[4])
+print(nums[2:])
+print(nums[-4])
+names=["sudip","ram","sham"]
+print(names)
+value =[9.5,"ram","sudip",300]
+mill=[nums,names]
+print(mill)
+nums.append(500)
+nums.insert(3,600)
+print(nums)
+a = "ram is a developer"
+print(a)
+reversed = a
+print(reversed[::-1])
+# list 
+z = ['a','b','c','d','e']
+a=0
+b=1
+print(z[-2])
+z[0]= "apple"
+print(z)
+z[3]='cat'
+print(z )
+ # tuple
+ 
+z= ('a','b','c','d','e')
+print(z)
+z(1)="apple"
+
+

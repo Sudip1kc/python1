@@ -1,0 +1,51 @@
+#username=["ram","hari","gopal"]
+#u = input("enter a user name")
+#if u in username:
+#    print("go to login")
+#else:
+#    print(" failed")    
+
+#a = "hello"
+#b = a.count("l")
+#print(b)
+ #list
+#a=[1,2,3,4]
+#a.append("hello")
+#print(a)
+#a= {1,2,3,4,5,6,7,8}
+#b= {4,5,6,7,8,9}
+#a.intersection_update(b) 
+#print(a)
+ 
+ #dic
+#name={"a":"ram","b":"hari"}
+#a= name.get("b")
+#print(a)
+ # task
+#data={"sudip":"pas123","ram":"pas456"}
+#name=input("enter a name:")
+#password=input("enter a password:")
+#if data.get(name)==password:
+#    print("login successful")
+#else:
+#    print("try again")    
+#error handilling
+#try:
+#    a = int(input("enter a num"))
+#    print(a*3)
+#except NameError:
+#    print("hello")    
+#try:
+#    num1 =int(input("enter 1st num"))
+#    if op=="+":
+#        print(num1+num2)
+#   elif op=="*":
+ #       print(num1*num2)
+  #  elif op=="/": 
+   #     print(num1/num2)
+    #else:
+     #   print("invalid op")
+#except:
+#    print("not found")
+
+    

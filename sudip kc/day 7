@@ -1,0 +1,28 @@
+# nested.py
+user1=input("enter(s,p,r)")
+user2=input("enter(s,p,r)")
+if user1 == "s":
+    if user2=="p":
+        print("user1 is winnwe")
+if user1=="r":
+    if user2=="s":
+        print("user1 is winner") 
+if user1=="p":
+    if user2=="r":
+        print("user1 is winner")
+if user1=="p":
+    if user2=="p":
+        print("game is tie")
+if user1=="s":
+       if user2=="s":
+           print("tie")
+if user1=="r":
+    if user2=="r":
+        print("game is tie")
+        
+u=float(input("enter the age"))
+if u >=18:
+    print("eligible")
+else:
+    print("not eligible")    
+                              

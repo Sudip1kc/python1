@@ -1,0 +1,26 @@
+#f= open('hello.txt','r')
+#print(f.read())
+#f.close()
+
+#login_register
+# Register a user
+with open("users.txt", "a") as file:
+    username = input("Enter username: ")
+    password = input("Enter password: ")
+    file.write(f"{username},{password}\n")
+    print("User registered successfully!")
+
+# Login a user
+with open("users.txt", "r") as file:
+    username = input("Enter username to login: ")
+    password = input("Enter password: ")
+    users = file.readlines()
+    if any(f"{username},{password}\n" == user for user in users):
+        print("Login successful!")
+    else:
+        print("Invalid credentials!")
+
+        
+
+    
+    
