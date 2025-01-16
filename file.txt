@@ -1,0 +1,4 @@
+django structure - MVT (Models views templates)
+
+
+
